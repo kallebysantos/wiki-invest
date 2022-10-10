@@ -5,10 +5,11 @@ export type IStockDividend = {
 }
 
 export type IStock = {
-  ticker: string
-  type: string
-  price: number
-  dividends: IStockDividend[]
+  title?: string
+  ticker?: string
+  type?: string
+  price?: number
+  dividends?: IStockDividend[]
 }
 
 export interface IStockExchangeProvider {
