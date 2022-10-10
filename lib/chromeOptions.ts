@@ -6,6 +6,7 @@ const chromeExecPaths = {
   darwin: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 }
 
+// @ts-ignore
 const exePath = chromeExecPaths[process.platform]
 
 interface Options {
